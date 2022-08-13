@@ -1,4 +1,36 @@
-.container {
+.heroe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 1%;
+  color: white;
+}
+
+.container {
+  height: 40%;
+  background-repeat: no-repeat;
+  display: flex;
+  border:  2px solid whitesmoke;
+  border-radius: 4px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 0px;
+}
+
+.img-container img {
+  height: 100%;
+  width:25vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article {
+  padding: 1%;
+  color: white;
 }

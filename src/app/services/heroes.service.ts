@@ -5,6 +5,7 @@ export class HeroesService {
   private heroes: Heroe[] = [
     {
       img: 'assets/img/demonHunter.jpg',
+      wallpaper: 'assets/img/demonHunterW.jpg',
       classHeroe: 'Demon Hunter',
       description:
         "Demon Hunters are the game's bow archetype class. They excel at ranged damage dealing with both good AoE and single target options. Demon Hunters use One-Handed Bows in both their weapon slot and their off-hand slot. When Legendary items drop.",
@@ -12,6 +13,7 @@ export class HeroesService {
     },
     {
       img: 'assets/img/barbarian.jpg',
+      wallpaper: 'assets/img/barbarianW.jpg',
       classHeroe: 'Barbarian',
       description:
         'Barbarian is a playable class in Diablo Immortal, they are savage wanderers and mighty weapon experts. Survivors of the disaster that struck Mount Arreat, Barbarians use powerful weapons and brutal attacks to crush any opposition.',
@@ -19,6 +21,7 @@ export class HeroesService {
     },
     {
       img: 'assets/img/magician.jpg',
+      wallpaper: 'assets/img/wizard.jpg',
       classHeroe: 'Magician',
       description:
         'Magician is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ipsum non nisl porta pharetra. Suspendisse libero mauris, tristique elementum.',
@@ -26,6 +29,7 @@ export class HeroesService {
     },
     {
       img: 'assets/img/monk.jpg',
+      wallpaper: 'assets/img/monkW.jpg',
       classHeroe: 'Monk',
       description:
         'Monk is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ipsum non nisl porta pharetra. Suspendisse libero mauris, tristique elementum.',
@@ -33,6 +37,7 @@ export class HeroesService {
     },
     {
       img: 'assets/img/necromancer.jpg',
+      wallpaper: 'assets/img/necromancerW.jpg',
       classHeroe: 'Necromancer',
       description:
         'Necromancer is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ipsum non nisl porta pharetra. Suspendisse libero mauris, tristique elementum.',
@@ -40,6 +45,7 @@ export class HeroesService {
     },
     {
       img: 'assets/img/paladin.jpg',
+      wallpaper: 'assets/img/crusader.jpg',
       classHeroe: 'Paladin',
       description:
         'Paladin is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ipsum non nisl porta pharetra. Suspendisse libero mauris, tristique elementum.',
@@ -64,6 +70,7 @@ export class HeroesService {
 //exportamos la interface para que el tipo se pueda usar en el resto de componentes
 export interface Heroe {
   img: string;
+  wallpaper: string;
   classHeroe: string;
   description: string;
   history: string;

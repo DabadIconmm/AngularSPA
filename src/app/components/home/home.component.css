@@ -1,0 +1,7 @@
+.home-container {
+  background-image: url('../../../assets/img/diablo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
