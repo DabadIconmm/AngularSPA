@@ -16,13 +16,11 @@ export class HeroeComponent implements OnInit {
   ) {
     //De esta manera retornamos ":id" o los parámetros que se estén pasando en este momento
     this.activatedRoute.params.subscribe(
-      (params):Heroe =>
+      (params): Heroe =>
         //sabemos que recibe ":id"
         (this.heroe = this._heroesService.getHeroe(params['id']))
     );
   }
-
-
 
   ngOnInit(): void {}
 }

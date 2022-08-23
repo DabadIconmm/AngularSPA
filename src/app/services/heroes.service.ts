@@ -64,6 +64,19 @@ export class HeroesService {
   getHeroe(i: number): Heroe {
     return this.heroes[i];
   }
+
+  searchHeroe(value: string) {
+    value = value.toLowerCase();
+    let heroe: Heroe;
+
+    for (let elem of this.heroes) {
+      if (elem.classHeroe.toLowerCase() === value) {
+        heroe = elem;
+        return heroe;
+      }
+    }
+    return alert('No se encontró ningún Heroe con la busqueda: ' + value);
+  }
 }
 
 //creamos una interfaz con el tipo de array que va a ser y lo incluimos arriba,
